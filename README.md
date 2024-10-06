@@ -21,5 +21,5 @@ This dashboard is designed for anyone looking to monitor their health and fitnes
 ## Attribution
 This design was inspired by [Outcrowd](https://dribbble.com/outcrowd) on Dribbble. The original design can be viewed [here](https://dribbble.com/shots/18752014-Fitme-Dashboard-Design-for-Health-App). Huge thanks for their fantastic work!
 
-## License
-This project is licensed under the MIT License.
+## Created
+October 05, 2024
