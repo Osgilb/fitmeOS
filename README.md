@@ -14,7 +14,7 @@ A visually appealing and modern fitness dashboard that helps users track their h
 - **Tailwind CSS**
 
 ## Screenshots
-![Fitness Dashboard](screenshot/fitme.png)
+![Fitness Dashboard](screenshot/fitme.jpeg)
 
 ## Usage
 This dashboard is designed for anyone looking to monitor their health and fitness metrics in a visually engaging way. It can be easily modified to suit individual or business needs.
