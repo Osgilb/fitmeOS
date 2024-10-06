@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://unpkg.com/@phosphor-icons/web"></script>
+        <title>Fitme</title>
+    </head>
+
+    <body class="p-0 m-0">
+        <div class="w-full h-full bg-zinc-900 grid grid-cols-[2.5fr_1fr] p-6 gap-14">
+            <div class="text-zinc-100 flex flex-col gap-12">
+                <nav>
+                    <ul class="flex items-center justify-between">
+                        <li>
+                            <logo class="font-bold text-2xl tracking-tighter text-yellow-300">Fitme.</logo>
+                        </li>
+                        <li>
+                            <button class="hover:bg-zinc-800/50">
+                                <i class="ph ph-list text-2xl"></i>
+                            </button>
+                        </li>
+                    </ul>
+                </nav>
+                <div>
+                    <header class="flex justify-between pl-6">
+                        <div>
+                            <h1 class="text-6xl w-80 leading-tight">Hi, <span class="underline decoration-yellow-300">Ann</span>. Check your Activity <img class="h-20 inline-block" src="assets/img/waving-hand.webp" alt=""></h1>
+                        </div>
+                        <div class="flex gap-4">
+                            <a href="#" class="h-fit">
+                                <button class="h-12 px-4 border-2 border-zinc-700 rounded-2xl flex items-center gap-2">
+                                    <i class="ph ph-calendar-dots"></i>
+                                    <p>05 Oct</p>
+                                </button>
+                            </a>
+                            <a href="#" class="h-fit">
+                                <button class="h-12 px-4 bg-zinc-100 text-zinc-900 tracking-tight font-medium rounded-2xl flex items-center gap-2">Meditation</button>
+                            </a>
+                        </div>
+                    </header>
+                </div>
+                <div class="grid grid-cols-[1.5fr_2fr] grid-rows-[250px] gap-4">
+                    <div class="bg-purple-300/80 text-zinc-900 tracking-tight font-bold rounded-3xl">
+                        <div class="grid grid-cols-[40px_1fr] py-8 px-10 gap-4 h-full">
+                            <div>
+                                <ul class="flex flex-col justify-between pb-10 h-full text-base">
+                                    <li>0</li>
+                                    <li>10</li>
+                                    <li>20</li>
+                                </ul>
+                            </div>
+                            <div class="grid grid-rows-[1fr_40px]">
+                                <div class="flex items-center scale-y-[-1]">
+                                    <svg class="stroke-zinc-900" width="241" height="82" viewBox="0 0 241 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1.02325 80.1861L7.6423 73.8546C14.2613 67.5232 27.4994 54.8603 40.7375 51.2736C53.9756 47.6869 67.2137 53.1764 80.4518 54.2869C93.6899 55.3973 106.928 52.1287 120.166 56.4826C133.404 60.8365 146.642 72.8129 159.88 69.6462C173.118 66.4794 186.357 48.1694 199.595 34.3229C212.833 20.4763 226.071 11.0932 232.69 6.40164L239.309 1.71008" stroke-width="3" stroke-linecap="round" />
+                                    </svg>
+                                </div>
+                                <div class="flex items-end text-base">
+                                    <ul class="flex justify-between w-full">
+                                        <li>Jan</li>
+                                        <li>Feb</li>
+                                        <li>Mar</li>
+                                        <li>Apr</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bg-zinc-600/20 rounded-3xl p-6 grid grid-cols-[1fr_1fr]">
+                        <div class="p-4">
+                            <div class="bg-[url('assets/img/chart.svg')] bg-no-repeat bg-contain bg-center h-full w-full">&nbsp;</div>
+                        </div>
+                        <div class="p-8 flex flex-col gap-4 justify-center">
+                            <h3 class="text-xl">Blood <br> Pressure</h3>
+                            <div class="flex gap-5">
+                                <div>
+                                    <div>
+                                        <h2 class="text-2xl font-bold tracking-tight">120<span class="text-yellow-300">~</span></h2>
+                                        <p class="text-xs text-zinc-500">5yrs</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div>
+                                        <h2 class="text-2xl font-bold tracking-tight">80~</h2>
+                                        <p class="text-xs text-zinc-500">0yrs</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[70px_1fr_70px] grid-rows-[300px] gap-4">
+                    <div class="border-2 border-zinc-500 rounded-full flex items-center justify-center">
+                        <i class="ph ph-arrow-left text-xl"></i>
+                    </div>
+                    <div class="border-2 border-zinc-500 rounded-3xl grid grid-cols-[1fr_1fr] gap-9">
+                        <div class="pt-6">
+                            <div class="bg-[url('assets/img/man.png')] bg-no-repeat bg-contain bg-center w-full h-full">&nbsp;</div>
+                        </div>
+                        <div class="p-12 flex flex-col gap-6 justify-center">
+                            <div>
+                                <h2 class="text-2xl w-56">Tips how to take medicine in correct way</h2>
+                            </div>
+                            <a href="#" class="w-fit">
+                                <button class="h-12 px-4 border-2 border-zinc-700 rounded-2xl flex items-center">
+                                    <p>Read</p>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="border-2 border-zinc-500 rounded-full flex justify-center items-center">
+                        <i class="ph ph-arrow-right text-xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- right section -->
+            <div class="bg-yellow-300 rounded-3xl flex flex-col justify-between h-full pt-10 p-6 gap-8">
+                <div class="flex justify-center bg-[url('assets/img/circles.png')] bg-contain bg-no-repeat bg-end ">
+                    <div class="flex flex-col items-center gap-3">
+                        <div class="bg-yellow-300 border-2 border-zinc-900 w-44 h-40 rounded-3xl pt-3">
+                            <div class="bg-[url('assets/img/woman.png')] bg-center bg-contain bg-no-repeat h-full w-full">&nbsp;</div>
+                        </div>
+                        <h3 class="text-2xl font-medium tracking-tighter flex items-center gap-px">Ms. Ann</h3>
+                    </div>
+                </div>
+                <div class="grid grid-cols-[1fr_1fr] grid-rows-[160px_160px] gap-4">
+                    <div class="bg-yellow-900/10 rounded-3xl flex flex-col justify-between p-6">
+                        <i class="ph ph-heart text-2xl"></i>
+                        <div>
+                            <h2 class="text-2xl font-bold tracking-tighter">56%</h2>
+                            <p class="tracking-tight text-sm">Recovering</p>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-900/10 rounded-3xl flex flex-col justify-between p-6">
+                        <i class="ph ph-chart-scatter text-2xl"></i>
+                        <div>
+                            <h2 class="text-2xl font-bold tracking-tighter">643</h2>
+                            <p class="tracking-tight text-sm">Medicines</p>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-900/10 rounded-3xl flex flex-col justify-between p-6">
+                        <i class="ph ph-receipt text-2xl"></i>
+                        <div>
+                            <h2 class="text-2xl font-bold tracking-tighter">414</h2>
+                            <p class="tracking-tight text-sm">Receipts</p>
+                        </div>
+                    </div>
+                    <div class="bg-yellow-900/10 rounded-3xl flex flex-col justify-between p-6">
+                        <i class="ph ph-stethoscope text-2xl"></i>
+                        <div>
+                            <h2 class="text-2xl font-bold tracking-tighter">8</h2>
+                            <p class="tracking-tight text-sm">Doctors</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex flex-col gap-2">
+                    <div class="flex justify-between">
+                        <h2 class="text-xl tracking-tighter font-medium">Pulse Rate</h2>
+                        <i class="ph ph-dots-nine text-2xl font-bold"></i>
+                    </div>
+                    <div class="p-4">
+                        <img src="assets/img/pulse.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
