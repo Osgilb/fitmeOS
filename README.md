@@ -12,7 +12,7 @@ A visually appealing and modern fitness dashboard that helps users track their h
 - **HTML5**
 - **Tailwind CSS**
 
-## Screenshots
+## Inspiration
 ![Fitness Dashboard](screenshot/fitme.jpeg)
 
 ## Usage
