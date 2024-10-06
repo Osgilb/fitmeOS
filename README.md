@@ -10,7 +10,6 @@ A visually appealing and modern fitness dashboard that helps users track their h
 
 ## Technologies Used
 - **HTML5**
-- **CSS3**
 - **Tailwind CSS**
 
 ## Screenshots
